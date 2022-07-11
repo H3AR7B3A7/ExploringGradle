@@ -7,3 +7,12 @@ task hello {
         print ' - World'
     }
 }
+
+task welcome {
+    
+    dependsOn hello
+    
+    doFirst {
+        println('Welcome !')
+    }
+}

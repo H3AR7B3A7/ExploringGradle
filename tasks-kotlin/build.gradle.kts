@@ -7,3 +7,12 @@ tasks.register("hello") {
         print(" - World")
     }
 }
+
+tasks.register("welcome") {
+    
+    dependsOn("hello")
+    
+    doFirst {
+        println("Welcome !")
+    }
+}

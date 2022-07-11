@@ -38,4 +38,33 @@ tasks - Displays the tasks runnable from root project 'tasks'.
 - doFirst
 - doLast
 
+## Plugins
+
+Plugins extend the project's capabilities.
+
+### Plugins Known by Gradle
+
+Some plugins are included in the installation of Groovy and have a very simple syntax to include.
+
+#### Java
+
+##### Groovy
+
+plugins { id 'java' }
+
+##### Kotlin
+plugins { java }
+
+### Unknown Plugins
+
+#### Flyway
+
+##### Groovy
+
+plugins { id 'org.flywaydb.flyway' version "6.3.2" }
+
+##### Kotlin
+
+plugins { id("org.flywaydb.flyway") version "6.3.2" }
+
 ---

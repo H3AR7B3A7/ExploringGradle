@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f005d450-1a55-4c69-ab10-21d6133cc1f7" name="Changes" comment=":memo: Update">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tasks-groovy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks-groovy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tasks-groovy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks-groovy/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,7 @@
       <workItem from="1657574828945" duration="105000" />
       <workItem from="1657574938799" duration="273000" />
       <workItem from="1657576248019" duration="639000" />
-      <workItem from="1657576936408" duration="800000" />
+      <workItem from="1657576936408" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary=":memo: Update">
       <created>1657576866192</created>

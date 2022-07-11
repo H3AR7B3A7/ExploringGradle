@@ -4,6 +4,6 @@ tasks.register("hello") {
     }
     
     doLast {
-        prinln(" - World")
+        print(" - World")
     }
 }

@@ -4,6 +4,15 @@ plugins {
     application
 }
 
+java {
+    // To enforce compatibility with Java 8
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8 // Defaults to sourceCompatibility if not set
+    // Javadoc configuration (separate jar from sources)
+    withJavadocJar()
+    withSourcesJar()
+}
+
 sourceSets {
     main {
         java {

@@ -1,5 +1,27 @@
 plugins {
-    id 'java'
-    id 'java-library'
+//    id 'java'
+//    id 'java-library'
     id 'application'
 }
+
+// Change application root
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+    test {
+        java {
+            srcDir 'test/src'
+        }
+    }
+}
+
+mainClassName = 'be.dog.d.steven.Repository'
+
+dependencies {
+    implementation files ('lib/log4j-1.2.8.jar', 'lib/junit-3.8.1.jar', 'lib/jaxb-api-2.3.1.jar')
+}
+
+version = '1.0-SNAPSHOT'

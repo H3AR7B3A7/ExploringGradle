@@ -67,4 +67,30 @@ plugins { id 'org.flywaydb.flyway' version "6.3.2" }
 
 plugins { id("org.flywaydb.flyway") version "6.3.2" }
 
+## Java Application
+
+Steps
+- Create build file
+- Add the appropriate plugins
+- Override tasks and properties
+
+Java source code
+- Is expected to be in standard locations
+- We can change this using SourceSets
+
+### Groovy
+
+```groovy dsl
+sourceSets {
+    main {
+        java {
+            srcDir 'src/java'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+}
+```
+
 ---

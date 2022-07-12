@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79cd13d5-f688-4ce2-ac36-fa496083e8d2" name="Changes" comment=":sparkles: Tasks">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-application-groovy/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tasks-kotlin/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks-kotlin/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tasks-kotlin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks-kotlin/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tasks-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks-kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tasks-kotlin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../tasks-kotlin/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,6 +56,19 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +79,8 @@
       <updated>1657573535869</updated>
       <workItem from="1657573537781" duration="931000" />
       <workItem from="1657574498642" duration="246000" />
-      <workItem from="1657577694888" duration="806000" />
+      <workItem from="1657577694888" duration="997000" />
+      <workItem from="1657656975418" duration="203000" />
     </task>
     <task id="LOCAL-00001" summary=":memo: Update">
       <created>1657573578158</created>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multi-project-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/multi-project-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JacketService/multi-project-kotlin.JacketService.iml" filepath="$PROJECT_DIR$/.idea/modules/JacketService/multi-project-kotlin.JacketService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JacketService/multi-project-kotlin.JacketService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JacketService/multi-project-kotlin.JacketService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JacketService/multi-project-kotlin.JacketService.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JacketService/multi-project-kotlin.JacketService.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Repository/multi-project-kotlin.Repository.iml" filepath="$PROJECT_DIR$/.idea/modules/Repository/multi-project-kotlin.Repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Repository/multi-project-kotlin.Repository.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Repository/multi-project-kotlin.Repository.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Repository/multi-project-kotlin.Repository.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Repository/multi-project-kotlin.Repository.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multi-project-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/multi-project-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multi-project-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/multi-project-kotlin.test.iml" />
+    </modules>
+  </component>
+</project>

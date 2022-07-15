@@ -1,1 +1,6 @@
 mainClassName = 'be.dog.d.steven.Main'
+
+// We can use variables from the parent build file
+dependencies {
+    implementation "javax.inject:javax.inject:${inject_version}"
+}

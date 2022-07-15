@@ -228,7 +228,7 @@ repositories {
 }
 ```
 
-Jfrog bintray - (faster) superset of maven central:
+Jfrog bintray - Deprecated:
 
 ```groovy dsl
 

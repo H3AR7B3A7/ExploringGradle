@@ -289,4 +289,112 @@ repositories {
 - Project level build files
   - Set project level properties and tasks
 
+## Testing /w JUnit
+
+- By default, Gradle looks for unit tests in src/test/java
+- Output is in build/classes/test
+- Reports are in build/reports/tests
+
+- We use the 'testImplementation' scope
+  testImplementation("junit:junit:4.12")
+- We can configure testing in the test block
+  - To see the test results
+
+```groovy dsl
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events TestLogEvent.FAILED,
+               TestLogEvent.PASSED,
+               TestLogEvent.SKIPPED
+    }
+}
+```
+
+### Improved Logging
+
+```groovy dsl
+id 'com.adarshr.test-logger' version '2.0.0'
+
+testLogger{
+    theme 'standard'
+    showExceptions true
+    showStackTraces true
+    showFullStackTraces true
+    showCauses true
+    slowTreshold 2000
+    showSummary true
+    showSimpleNames true
+    showPassed true
+    showSkipped true
+    showFailed true
+    showStandardStreams true
+    showPassedStandardStreams true
+    showSkippedStandardStreams true
+    showFailedStandardStreams true
+}
+```
+
+```kotlin dsl
+plugins {
+    id ("com.adarshr.test-logger") version "2.0.0"
+}
+
+tasks {
+    testLogger{
+        theme 'standard'
+        showExceptions true
+        showStackTraces true
+        ...
+    }
+}
+```
+
+### Filtering Tests
+
+```groovy dsl
+test {
+    filter {
+        includeTestsMatching 'com.foo.shouldCreateASession'
+        includeTestsMatching '*shouldCreateASession'
+    }
+}
+
+task singleTest {
+    group = "Verification"
+    description = "Run a single test"
+    
+    dependsOn testClasses
+    
+    useJUnitPlatform()
+    testLogging {
+        events TestLogEvent.FAILED,
+               TestLogEvent.PASSED,
+               TestLogEvent.SKIPPED
+    }
+    
+    filter {
+        includeTestsMatching 'com.foo.shouldCreateASession'
+    }
+}
+```
+
+```kotlin dsl
+tasks.register<Test>("singleTest") {
+    group = "Verification"
+    description = "Run a single test"
+    dependsOn("testClasses")
+    useJUnitPlatform()
+    testLogging.events = setOf(TestLogEvent.FAILED, TestLogEvent.PASSED, TestLogEvent.SKIPPED)
+    filter {
+        includeTestsMatching("com.foo.shouldCreateASession")
+    }
+}
+```
+
 ---

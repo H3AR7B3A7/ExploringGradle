@@ -280,4 +280,13 @@ repositories {
 
   > gradle build --refresh-dependencies
 
+## Multi Project Build
+
+- Applications generally consist of multiple projects
+- Top level settings file to specify the projects
+- Top level build to configure the projects
+  - And set dependencies
+- Project level build files
+  - Set project level properties and tasks
+
 ---

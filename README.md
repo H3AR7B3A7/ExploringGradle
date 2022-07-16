@@ -397,4 +397,30 @@ tasks.register<Test>("singleTest") {
 }
 ```
 
+## Gradle Wrapper
+
+- Gives the project a specific version of Gradle
+- Get consistent builds
+- gradlew.bat on Windows
+- gradlew shell script on Unix environments
+
+Create wrapper
+> gradle wrapper
+
+gradle-wrapper.properties
+
+```properties
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.4-bin.zip
+```
+
+> gradle build --console plain
+
+Reasons for using wrapper:
+- IDEs need it when loading the project
+- Build servers need it to create a build (Teamcity)
+  - Continuous integration is very important
+  - If not CI then at least nightly builds
+  - If not nightly then a clean place to build
+  - 'Works on my machine'
+
 ---
